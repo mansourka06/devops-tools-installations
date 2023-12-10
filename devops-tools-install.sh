@@ -1,6 +1,15 @@
 #!/bin/bash
 
+#########################################################
+# Description: DevOps tools installation                #
+# Supported OS: Debian | Ubuntu                         #
+# Author: Mansour KA (mansourka.devops@protonmail.com)  #
+# Last update: 10/12/2023                               #
+#########################################################
+
 #####################################################################################################################
+# BDEGIN
+
 IP=$(hostname -I | awk '{print $2}')
 
 set -e 
@@ -160,7 +169,7 @@ else
     echo "The zsh is not installed on this server"    
 fi
 
-##
 echo "For this Stack, you will use $IP IP Address"
 
+#END
 #####################################################################################################################
