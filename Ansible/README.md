@@ -28,6 +28,8 @@ This is a bash script that installs Ansible on a Linux system.
 
 ### 1. Run the script
 
+> **NOTE**: By default, the script installs the latest version of Ansible. But we can also install a specific Ansible version by adding the desired version at the end of the script in the command line.
+
 - To install latest version:
 
  ```bash
@@ -39,5 +41,3 @@ This is a bash script that installs Ansible on a Linux system.
  ```bash
  ./ansible-install.sh 2.10.7
  ```
-
-> **NOTE**: By default, the script installs the latest version of Ansible. But we can also install a specific Ansible version by adding the desired version at the end of the script in the command line.
