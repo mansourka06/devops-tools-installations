@@ -12,6 +12,10 @@ This is a bash script that installs Ansible on a Linux system.
 
 ### 1. Create file `ansible.sh` and copy and paste the script content
 
+ ```bash
+ nano ansible.sh
+ ```
+
 ---
 
 ### 2. Make it executable
